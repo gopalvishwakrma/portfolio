@@ -1,0 +1,428 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        max-width: 550%;
+    }
+
+    .welcome {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .alert {
+        display: block;
+    }
+
+    .profileimage {
+        display: none;
+    }
+
+    .leftside>p:first-of-type {
+        font-size: 3rem !important;
+    }
+
+
+    .leftside p:nth-of-type(2) {
+        font-size: 2rem;
+    }
+
+    .leftside {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutmeimage {
+        display: flex !important;
+        justify-content: center !important;
+        width: 130vw;
+    }
+
+    .aboutme {
+        position: relative;
+        top: 150px;
+    }
+
+    .rightme {
+        text-align: center;
+        width: 80%;
+        font-size: 1.9rem;
+    }
+
+    .mm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 60px !important;
+    }
+
+    #downloadButton {
+        margin-top: 10vh !important;
+        border-radius: 40px !important;
+        font-size: 3rem !important;
+        font-weight: 400 !important;
+        height: 15vh !important;
+        width: 120vw !important;
+        color: white !important;
+    }
+
+    .buttonn {
+        position: relative;
+        right: 95px;
+    }
+
+    .heading {
+        font-size: 4.5rem;
+        margin: 0;
+        padding: 0;
+        text-align: center !important;
+    }
+
+    .skill h2 {
+        display: flex !important;
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 3.7rem;
+    }
+
+    .h22 {
+        display: flex !important;
+        justify-content: center !important;
+
+    }
+
+    .skill p {
+        width: 450px;
+        font-size: 2rem !important;
+        position: relative;
+        right: 133px !important;
+    }
+
+    .leftside {
+        width: 500;
+    }
+
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        left: 250px;
+    }
+
+    .boxes h2 {
+        position: relative !important;
+        left: 60px !important;
+        font-size: 3.5rem !important;
+    }
+
+    .h22gain {
+        position: relative;
+        left: 70px !important;
+    }
+
+    .boxes p {
+        position: relative !important;
+        right: 70px !important;
+    }
+
+    #imagesofskill {
+        width: 100vw !important;
+        position: relative !important;
+        right: 80px !important;
+    }
+
+    /* qualification */
+
+    .qualification {
+        position: relative;
+        top: 200px;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .timeline {
+        position: relative;
+        max-width: 100% !important;
+        margin: 0 auto;
+        top: 100px;
+    }
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 8px;
+        background-color: #1ecbe1;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -2px;
+    }
+
+
+    .timeline-item {
+        padding: 23px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+        height: 30vh !important;
+    }
+
+
+    .timeline-item::after {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        right: -13px;
+        background-color: white;
+        border: 4px solid #ddd;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+
+    .left {
+        left: 0;
+        height: 25vh !important;
+    }
+
+    .right {
+        left: 50%;
+        height: 25vh !important;
+    }
+
+    .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+    }
+
+    .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+    }
+
+    .right::after {
+        left: -13px;
+    }
+
+    .content {
+        height: 25vh !important;
+        padding: 20px;
+        position: relative;
+        border-radius: 6px;
+        color: black;
+        font-size: 2.8rem !important;
+        font-family: Arial, sans-serif;
+        box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
+    }
+
+    /* .service */
+
+    .service {
+        margin-top: 90px !important;
+        height: 200vh !important;
+    }
+
+    .services {
+        position: relative;
+        top: 100px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    .frontend,
+    .uiux {
+        width: 130vw !important;
+        box-shadow: rgb(44, 62, 80) 0px 0px 30px 0px;
+    }
+
+    .frontend {
+        position: relative;
+        z-index: 1;
+    }
+
+    .uiux {
+        position: relative;
+        z-index: 1;
+    }
+
+    .frontendh2 {
+        position: absolute;
+        top: 490px;
+        left: 50px !important;
+        font-size: 2rem !important;
+    }
+
+    .frontendp {
+        font-size: 1rem position: relative;
+        top: 540px;
+        left: 50px !important;
+        font-size: 1.5rem !important;
+    }
+
+    .uiuxh2,
+    .uiuxp {
+        position: absolute;
+        top: 1390px;
+        left: 50px !important;
+    }
+
+    /* .service {
+        height: 1000px;
+    }
+
+    .services {
+        flex-direction: column;
+        position: relative;
+        left: 360px;
+        gap: 120px;
+    }
+
+    .frontend,
+    .uiux {
+        width: 60vw;
+        box-shadow: none;
+        border: 1px solid white;
+        margin-top: 0;
+    }
+
+    .frontendh2 {
+        position: absolute;
+        top: 270px;
+        left: 20px !important;
+    }
+
+    .frontendp {
+        font-size: 1rem position: relative;
+        top: 300px;
+        left: 20px !important;
+    } */
+
+    /* contactus */
+
+    /*.contactuss {
+        position: relative;
+        right: 5px;
+        position: relative !important;
+        justify-content: center !important;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .submit-btn {
+        position: relative;
+        left: 137px;
+        width: 29% !important;
+    }
+} */
+
+    .contactus {
+        top: 0;
+    }
+
+    .input-container {
+        width: 90%;
+        margin: 20px auto 25px auto;
+    }
+
+    .styled-input,
+    .styled-input.wide {
+        width: 100%;
+    }
+
+    .styled-input label {
+        padding: 10px 20px;
+        top: -10px;
+        font-size: 34px;
+    }
+
+    input:focus~label,
+    textarea:focus~label,
+    input:valid~label,
+    textarea:valid~label {
+        font-size: 1.3rem;
+        color: #999;
+        top: -20px;
+        -webkit-transition: all 0.225s ease;
+        transition: all 0.225s ease;
+    }
+
+    input,
+    textarea {
+        padding: 60px;
+        font-size: 35px;
+        border-radius: 20px;
+    }
+
+    .submit-btn {
+        width: 45% !important;
+        float: right !important;
+        height: 15vh !important;
+        border-radius: 25px !important;
+        color: white !important;
+        font-size: 2.7rem !important;
+        margin-top: 10px !important;
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 990px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .styled-input {
+        width: 100%;
+    }
+
+    .submit-btn {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
