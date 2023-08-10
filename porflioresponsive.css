@@ -250,8 +250,8 @@
 
     .frontend,
     .uiux {
-        width: 170vw !important;
-        box-shadow: rgb(44, 62, 80) 0px 0px 100px 0px;
+        width: 160vw !important;
+        box-shadow: rgb(44, 62, 80) 0px 0px 40px 0px;
     }
 
     .frontend {
