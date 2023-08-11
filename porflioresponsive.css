@@ -141,7 +141,7 @@
 
     .qualification {
         position: relative;
-        top: 200px;
+        top: 270px;
         justify-content: center;
         height: 100vh;
     }
@@ -236,7 +236,7 @@
     /* .service */
 
     .service {
-        margin-top: 90px !important;
+        margin-top: 140px !important;
         height: 200vh !important;
     }
 
@@ -250,8 +250,8 @@
 
     .frontend,
     .uiux {
-        width: 160vw !important;
-        box-shadow: rgb(44, 62, 80) 0px 0px 40px 0px;
+        width: 170vw !important;
+        box-shadow: rgb(44, 62, 80) 0px 0px 30px 0px;
     }
 
     .frontend {
@@ -272,17 +272,17 @@
     }
 
     .frontendp {
-        position: relative;
-        top: 450px;
-        left: 200px !important;
+        font-size: 1rem position: relative;
+        top: 540px;
+        left: 50px !important;
         font-size: 1.5rem !important;
     }
 
     .uiuxh2,
     .uiuxp {
-        position: relative;
-        top: 600px;
-        left: 200px !important;
+        position: absolute;
+        top: 1390px;
+        left: 50px !important;
     }
 
     /* .service {
@@ -343,7 +343,7 @@
 
     .input-container {
         width: 90%;
-        margin: 20px auto 25px auto;
+        margin: 20px auto 0 auto;
     }
 
     .styled-input,
@@ -385,12 +385,19 @@
         margin-top: 10px !important;
     }
 
+    /* Footer links */
+
+    .footer-distributed{
+        margin: 10px 0 12px;
+        position: relative;
+        
+        top: 100px !important;
+    }
+
     .footer-icons a{
-        font-size: 40px !important;
+        font-size: 70px !important;
     }
 }
-
-
 
 /* ////////////////////////////////////////////////////////////////////////////// */
 
