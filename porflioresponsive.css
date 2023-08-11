@@ -236,7 +236,7 @@
     /* .service */
 
     .service {
-        margin-top: 200px !important;
+        margin-top: 140px !important;
         height: 200vh !important;
     }
 
@@ -387,15 +387,24 @@
 
     /* Footer links */
 
-    .footer-distributed{
+    .footer-distributed {
         margin: 10px 0 12px;
         position: relative;
-        
         top: 100px !important;
+        width: 50%;
+        /* Take up 50% of the mobile width */
     }
 
-    .footer-icons a{
-        font-size: 70px !important;
+    .footer-icons {
+        width: 100%;
+        justify-content: space-between;
+        /* Icons one after another */
+    }
+
+    .footer-icons a {
+        font-size: 60px !important;
+        margin: 5px;
+        /* Add some margin between icons */
     }
 }
 
