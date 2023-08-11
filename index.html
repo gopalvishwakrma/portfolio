@@ -26,7 +26,7 @@
 
     <div class="about container">
         <div class="leftside">
-            <h1 class="heading" style="color: #1ecbe1;">Hi, I' am Gopal</h1>
+            <h1 class="heading typewriter" style="color: #1ecbe1;">Hi, I' am Gopal</h1>
             <p class="paraofintroduction" style="color: #1ecbe1; font-size: 1.8rem;">Frontend developer</p>
             <p style="color: #ba8d1f; font-family: 'Lunasima', sans-serif;">High level experience in web design and
                 development knowledge, producing quality work.</p>
@@ -41,14 +41,13 @@
 
     <div class="container aboutme">
         <h1 class="heading" style="text-align: center; color: #ba8d1f; margin-bottom: 80px;">About Me</h1>
-        <!-- <p style="text-align: center; margin-bottom: 80px; color: #ba8d1f; font-size: 1.8rem;">My Introduction</p> -->
         <div class="mm">
-            <div class="leftme">
+            <div class="leftme hidden">
                 <img class="aboutmeimage" style="border-radius: 20%;"
                     src="DALL·E 2023-01-15 16.56.25 - A men with whit collar of shirt (1) (1).jpg"
                     alt="Gopal Vishwakarma Image">
             </div>
-            <div class="rightme">
+            <div class="rightme hidden">
                 <p style="color: #ba8d1f; font-family: 'Lunasima', sans-serif; font-size: larger;"> I'm a dedicated and
                     eager computer science student. HTML, CSS,
                     Bootstrap, Python, and MySQL are among my areas of expertise, and I'm constantly eager to learn new
@@ -61,6 +60,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- skills -->
     <div class=" container skill">
@@ -221,8 +221,6 @@
 
     <footer class="footer-distributed footer">
         <div class="footer-icons">
-            <!-- <i class="fa fa-envelope"></i>
-            <p><a href="mailto:vishwakarmagopalcs222343@gmail.com">vishwakarmagopalcs222343@gmail.com</a></p> -->
             <a style="background-color: #252122;"
                 href="https://www.facebook.com/people/Gopal-Vishwakarma/pfbid02Nsy8L8g2Kwr5dEMPrzwMY9TaKzCRiPuvzXQriqPFHv55W9hKqZuWRYJipQUwsw9Al/"
                 target="_blank"><i class="fa fa-facebook"></i></a>
@@ -315,6 +313,19 @@
         });
 
         app.listen(3000, () => console.log('Server listening on port 3000'));
+
+        // automaticoming
+        window.addEventListener('scroll', function () {
+            var element = document.querySelector('.aboutme');
+            var position = element.getBoundingClientRect();
+
+            if (position.top < window.innerHeight && position.bottom >= 0) {
+                setTimeout(function () {
+                    document.querySelector('#downloadButton').classList.add('slide-up');
+                }, 700);
+            }
+        });
+
 
     </script>
 </body>
