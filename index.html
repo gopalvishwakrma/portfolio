@@ -12,25 +12,12 @@
 </head>
 
 <body>
-    <div class="container welcome">
-        <nav class="navbar">
-            <ul class="ull">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact me</a></li>
-            </ul>
-        </nav>
-    </div>
-
     <div class="about container">
         <div class="leftside">
             <h1 class="heading typewriter" style="color: #1ecbe1;">Hi, I' am Gopal</h1>
             <p class="paraofintroduction" style="color: #1ecbe1; font-size: 1.8rem;">Frontend developer</p>
             <p style="color: #ba8d1f; font-family: 'Lunasima', sans-serif;">High level experience in web design and
                 development knowledge, producing quality work.</p>
-            <!-- <input class="btn" type="button" value="Scroll down"> -->
         </div>
 
         <div class="rightside">
@@ -154,7 +141,7 @@
         </div>
     </div>
 
-    
+
 
     <!-- Contactus -->
     <!-- <form id="contactForm" action="send_email.php" method="post"> -->
@@ -206,7 +193,7 @@
                 href="https://www.facebook.com/people/Gopal-Vishwakarma/pfbid02Nsy8L8g2Kwr5dEMPrzwMY9TaKzCRiPuvzXQriqPFHv55W9hKqZuWRYJipQUwsw9Al/"
                 target="_blank"><i class="fa fa-facebook"></i></a>
             <a style="background-color: #252122;" href="https://twitter.com/gopalvish1510" target="_blank"><i
-                    class="fa fa-twitter"></i></a>
+                    class="fa-brands fa-x-twitter"></i></a>
             <a style="background-color: #252122;" href="https://www.linkedin.com/in/gopal-vishwakarma-95ab9325a/"
                 target="_blank"><i class="fa fa-linkedin"></i></a>
             <a style="background-color: #252122;" href="https://github.com/gopalvishwakrma" target="_blank">
@@ -306,6 +293,22 @@
                 }, 700);
             }
         });
+
+        // contactus effct
+        window.addEventListener('scroll', function () {
+            var element = document.querySelector('.contactus');
+            var position = element.getBoundingClientRect();
+
+            if (position.bottom - window.innerHeight <= window.innerHeight * 0.08) {
+                document.querySelector('#name').classList.add('slide-in');
+                document.querySelector('#email').classList.add('slide-in');
+                document.querySelector('#phone').classList.add('slide-in');
+                document.querySelector('#message').classList.add('slide-in');
+                document.querySelector('.submit-btn').classList.add('slide-in');
+            }
+        });
+
+
 
 
     </script>
