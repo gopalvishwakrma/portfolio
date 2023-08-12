@@ -127,11 +127,11 @@
 }
 
 .leftme {
-    animation: 1s ease-out 1s 1 slideInFromLeft;
+    animation: .5s ease-out 1s 1 slideInFromLeft;
 }
 
 .rightme {
-    animation: 1s ease-out 01s 1 slideInFromRight;
+    animation: .5s ease-out 01s 1 slideInFromRight;
 }
 
 @keyframes slideUp {
@@ -145,7 +145,7 @@
 }
 
 #downloadButton.slide-up {
-    animation: 1s ease-out 1s 1 slideUp;
+    animation: .5s ease-out 1s 1 slideUp;
 }
 
 
