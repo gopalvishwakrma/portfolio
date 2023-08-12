@@ -339,6 +339,7 @@
 
     .contactus {
         top: 0;
+        margin-top: 30vh;
     }
 
     .input-container {
@@ -387,24 +388,26 @@
 
     /* Footer links */
 
+    .footer {
+        top: auto; /* Reset the 'top' property */
+        flex-direction: column; /* Arrange items vertically */
+        align-items: flex-start; /* Align items to the left */
+    }
+
     .footer-distributed {
-        margin: 10px 0 12px;
-        position: relative;
-        top: 100px !important;
-        width: 50%;
-        /* Take up 50% of the mobile width */
+        width: 100%;
     }
 
     .footer-icons {
         width: 100%;
-        justify-content: space-between;
-        /* Icons one after another */
+        justify-content: flex-start; /* Start from the left */
     }
 
     .footer-icons a {
-        font-size: 60px !important;
-        margin: 5px;
-        /* Add some margin between icons */
+        font-size: 30px !important; /* Adjust the font size */
+        margin: 10px 20px; /* Add some vertical margin between icons */
+        width: auto; /* Let the width adjust based on content */
+        height: auto; /* Let the height adjust based on content */
     }
 }
 
