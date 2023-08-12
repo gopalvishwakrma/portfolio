@@ -285,58 +285,6 @@
         left: 50px !important;
     }
 
-    /* .service {
-        height: 1000px;
-    }
-
-    .services {
-        flex-direction: column;
-        position: relative;
-        left: 360px;
-        gap: 120px;
-    }
-
-    .frontend,
-    .uiux {
-        width: 60vw;
-        box-shadow: none;
-        border: 1px solid white;
-        margin-top: 0;
-    }
-
-    .frontendh2 {
-        position: absolute;
-        top: 270px;
-        left: 20px !important;
-    }
-
-    .frontendp {
-        font-size: 1rem position: relative;
-        top: 300px;
-        left: 20px !important;
-    } */
-
-    /* contactus */
-
-    /*.contactuss {
-        position: relative;
-        right: 5px;
-        position: relative !important;
-        justify-content: center !important;
-    }
-
-    input,
-    textarea {
-        width: 100%;
-    }
-
-    .submit-btn {
-        position: relative;
-        left: 137px;
-        width: 29% !important;
-    }
-} */
-
     .contactus {
         top: 0;
         margin-top: 70vh !important;
@@ -389,9 +337,9 @@
     /* Footer links */
 
     .footer {
-        top: auto; /* Reset the 'top' property */
-        flex-direction: column; /* Arrange items vertically */
-        align-items: flex-start; /* Align items to the left */
+        top: auto;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .footer-distributed {
@@ -400,14 +348,14 @@
 
     .footer-icons {
         width: 100%;
-        justify-content: flex-start; /* Start from the left */
+        justify-content: flex-start;
     }
 
     .footer-icons a {
-        font-size: 45px !important; /* Adjust the font size */
-        margin: 10px 20px; /* Add some vertical margin between icons */
-        width: auto; /* Let the width adjust based on content */
-        height: auto; /* Let the height adjust based on content */
+        font-size: 45px !important;
+        margin: 10px 20px;
+        width: auto;
+        height: auto;
     }
 }
 
