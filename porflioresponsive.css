@@ -4,10 +4,6 @@
         max-width: 550%;
     }
 
-    .welcome {
-        display: none;
-    }
-
     .about {
         display: flex;
         flex-direction: column-reverse;
@@ -17,8 +13,14 @@
         top: 50px;
     }
 
-    .alert {
-        display: block;
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 80%
+        }
     }
 
     .profileimage {
@@ -187,7 +189,6 @@
         z-index: 1;
     }
 
-
     .left {
         left: 0;
         height: 25vh !important;
@@ -231,58 +232,6 @@
         font-size: 2.8rem !important;
         font-family: Arial, sans-serif;
         box-shadow: rgb(44, 62, 80) 0px 0px 15px 0px;
-    }
-
-    /* .service */
-
-    .service {
-        margin-top: 140px !important;
-        height: 200vh !important;
-    }
-
-    .services {
-        position: relative;
-        top: 100px !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center !important;
-    }
-
-    .frontend,
-    .uiux {
-        width: 170vw !important;
-        box-shadow: rgb(44, 62, 80) 0px 0px 30px 0px;
-    }
-
-    .frontend {
-        position: relative;
-        z-index: 1;
-    }
-
-    .uiux {
-        position: relative;
-        z-index: 1;
-    }
-
-    .frontendh2 {
-        position: absolute;
-        top: 400px;
-        left: 200px !important;
-        font-size: 2rem !important;
-    }
-
-    .frontendp {
-        font-size: 1rem position: relative;
-        top: 540px;
-        left: 50px !important;
-        font-size: 1.5rem !important;
-    }
-
-    .uiuxh2,
-    .uiuxp {
-        position: absolute;
-        top: 1390px;
-        left: 50px !important;
     }
 
     .contactus {
